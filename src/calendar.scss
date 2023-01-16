@@ -1,0 +1,75 @@
+@use "sass:color";
+
+/* Google Calendar */
+
+:root {
+  color-scheme: dark;
+  // --primary: #1a73e8;
+  // --primary-variant: #4285f4;
+  // --on-primary: #fff;
+  // --secondary: #e8f0fe;
+  // --secondary-variant: #d2e3fc;
+  // --on-secondary: #1967d2;
+  // --on-secondary-variant: #185abc;
+  --surface: #202124;
+  // --surface-transparent: rgba(255, 255, 255, 0);
+  --on-surface: #ccc;
+  --on-surface-variant: #999;
+  --on-surface-variant-agm: #666;
+  --background: #202124;
+  // --on-background: #202124;
+  --textfield-surface: #303134;
+  // --textfield-primary: #1967d2;
+  // --textfield-hairline: #80868b;
+  // --textfield-error: #c5221f;
+  // --textfield-on-surface-variant: #999;
+  --hairline: #3c4043;
+  // --error: #d93025;
+  // --on-error: #fff;
+  // --shadow-1: 0px 1px 2px 0px rgba(60, 64, 67, 0.302),
+  //   0px 1px 3px 1px rgba(60, 64, 67, 0.149);
+  // --shadow-5: 0px 4px 4px 0px rgba(60, 64, 67, 0.302), 0px 8px 12px 6px rgba(60, 64, 67, 0.149);
+  --fab: rgba(255, 255, 255, 0.1);
+  --fab-hover: #303134;
+  // --dimmed: rgba(32, 33, 36, 0.38);
+  // --chip-hover: #{color.invert(#f1f3f4)};
+  --chip-hover: #303134;
+  // --now: #ea4335;
+  // --bubble-tab-hover: #f8f9fa;
+}
+
+// header
+#gb {
+  .gb_Pd {
+    background-color: var(--surface);
+  }
+
+  span {
+    color: var(--on-surface);
+  }
+}
+
+[role="menu"] {
+  background-color: var(--surface) !important;
+
+  * {
+    background-color: var(--surface) !important;
+    color: var(--on-surface) !important;
+  }
+}
+
+[role="button"],
+[role="option"] {
+  color: var(--on-surface) !important;
+}
+
+[data-eventchip] {
+  [role="button"] {
+    color: unset !important;
+  }
+}
+
+// event editing page
+.TgcD5e.CCDcoc .zHQkBf {
+  color: unset;
+}
