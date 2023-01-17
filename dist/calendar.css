@@ -28,6 +28,10 @@
   color: var(--on-surface) !important;
 }
 
+[role=dialog] {
+  background-color: var(--surface) !important;
+}
+
 [role=button],
 [role=option] {
   color: var(--on-surface) !important;
