@@ -13,7 +13,7 @@
   --chip-hover: #303134;
 }
 
-#gb .gb_Pd {
+#gb > div {
   background-color: var(--surface);
 }
 #gb span {
