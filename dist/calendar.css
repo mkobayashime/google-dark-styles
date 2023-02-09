@@ -24,7 +24,6 @@
   background-color: var(--surface) !important;
 }
 [role=menu] *:not([aria-label$="calendar color"]) {
-  background-color: var(--surface) !important;
   color: var(--on-surface) !important;
 }
 
