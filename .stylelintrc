@@ -4,5 +4,8 @@
     "stylelint-prettier/recommended",
     "stylelint-config-standard-scss"
   ],
-  "plugins": ["stylelint-order", "stylelint-prettier"]
+  "plugins": ["stylelint-order", "stylelint-prettier"],
+  "rules": {
+    "scss/double-slash-comment-empty-line-before": null
+  }
 }
